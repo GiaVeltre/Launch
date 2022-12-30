@@ -1,0 +1,190 @@
+@font-face {
+    src: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/Proxima_Nova_Black.woff2?v=1667221423);
+    font-family: Proxima-Nova-Black;
+}
+
+@font-face {
+    src: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/ProximaNovaA-Regular.woff2?v=1663859390);
+    font-family: ProximaNovaA-Regular;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.container {
+    
+    background-image: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/shutterstock_784592905.png?v=1666974001);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 915px;
+    padding-top: 5%;
+}
+.wrapper {
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.logo-banner {
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.launch-time {
+    display: flex;
+    width: 100%;
+}
+
+.launch-time div {
+    flex-basis: 500px;
+    width: 100%;
+   text-align: center;
+}
+
+.launch-time div p {
+    font-size: 64px;
+    padding: 2%;
+    width: 100%;
+
+}
+
+h6 {
+    padding: 3%;
+}
+
+.img-info h1 {
+    font-size: 49px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.img-info {
+    margin-top: 1%;
+    font-family: Proxima-Nova-Black;
+}
+
+.img-info h1 span {
+    font-size: 49px;
+    font-weight: 800;
+    color: #ab2328;
+    text-align: center;
+}
+
+.gambling-snipe {
+    font-family: ProximaNovaA-Regular;
+    font-size: larger;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 120%;
+    height: auto;
+}
+
+.snipe {
+    font-family: ProximaNovaA-Regular;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    padding-left: 30%;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-banner {
+        display: block;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-info h1 {
+       font-size: 100px; 
+       text-align-last: center;
+    }
+    
+    .img-info h1 span {
+        font-size: 100px;
+        text-align-last: center;
+        padding-top: 11%;
+    }
+
+    .container {
+        width: 100%;
+        height: 1180px;
+        background-position: center;
+    }
+
+    .launch-time div p {
+        font-size: 84px;
+        padding: 2%;
+        width: auto;
+        height: 100%;
+    
+    }
+
+   * h6 {
+        font-size: 30px;
+    }
+    
+    .back-video {
+        width: 115%;
+       margin-left: 10%;
+    }
+
+   
+}
+
+@media screen and (min-width: 1920px) {
+
+    .launch-time div p {
+        font-size: 150px;
+    }
+
+    .logo-banner {
+        width: 40%;
+        padding: 2%;
+    }
+
+    .img-info h1 {
+        font-size: 120px; 
+        
+     }
+     
+     .img-info h1 span {
+         font-size: 120px;
+         padding-top: 11%;
+     }
+
+     .back-video {
+        width: 100%;
+        height: auto;
+     }
+
+     .container {
+        padding-top: 0;
+     }
+
+}
